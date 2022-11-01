@@ -26,7 +26,7 @@ public class Move : MonoBehaviour
         return TweenMe.transform.localPosition;
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         if ((start-getPosition()).magnitude > 0.01f) {
             move(start);

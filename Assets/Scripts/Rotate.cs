@@ -31,7 +31,7 @@ public class Rotate : MonoBehaviour
         return Math.Abs(rotation1.x-rotation2.x) + Math.Abs(rotation1.y-rotation2.y) + Math.Abs(rotation1.z-rotation2.z);
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         if (RotationDifference(start, getRotation()) > 0.01f) {
             move(start);

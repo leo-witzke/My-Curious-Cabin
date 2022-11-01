@@ -44,7 +44,7 @@ public class PhotoAlbumRotate : MonoBehaviour
         return Math.Abs(rotation1.x-rotation2.x) + Math.Abs(rotation1.y-rotation2.y) + Math.Abs(rotation1.z-rotation2.z);
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         if (RotationDifference(AlbumStart, getRotation(PhotoAlbum)) > 0.01f) {
             rotate(AlbumStart, CoverStart);

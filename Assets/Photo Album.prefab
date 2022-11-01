@@ -941,6 +941,7 @@ GameObject:
   - component: {fileID: 4335652611701523011}
   - component: {fileID: 2704574164060737581}
   - component: {fileID: 823995443594679433}
+  - component: {fileID: 497844661253092976}
   m_Layer: 0
   m_Name: Back Cover
   m_TagString: Untagged
@@ -1026,6 +1027,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &497844661253092976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049262640043441310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a4746c17ed64ac4b7eb190ecd01035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7146938460276732619
 GameObject:
   m_ObjectHideFlags: 0
